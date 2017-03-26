@@ -6,6 +6,7 @@
 #include "box.h"
 #include "demo.h"
 #include "option_list.h"
+#include "post_predictions.h"
 
 #ifdef OPENCV
 #include "opencv2/highgui/highgui_c.h"
@@ -482,7 +483,17 @@ void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filenam
         if (l.softmax_tree && nms) do_nms_obj(boxes, probs, l.w*l.h*l.n, l.classes, nms);
         else if (nms) do_nms_sort(boxes, probs, l.w*l.h*l.n, l.classes, nms);
         draw_detections(im, l.w*l.h*l.n, thresh, boxes, probs, names, alphabet, l.classes);
-        save_image(im, "predictions");
+        //jaggi
+        printf("w=%d h=%d n=%d\n", l.w,l.h,l.n);
+        save_detections(filename, l.w*l.h*l.n, im.w, im.h, thresh, boxes, probs, names, l.classes);
+        printf("Wrote result to: csv File \n");
+
+        char* pred_img_file;
+        pred_img_file = malloc(strlen("predictions_") +strlen(basename(filename)));
+        strcpy(pred_img_file, "predictions_");
+        strcat(pred_img_file, basename(filename));
+
+        save_image(im, pred_img_file);
         show_image(im, "predictions");
 
         free_image(im);
@@ -538,11 +549,11 @@ void run_detector(int argc, char **argv)
     char *cfg = argv[4];
     char *weights = (argc > 5) ? argv[5] : 0;
     char *filename = (argc > 6) ? argv[6]: 0;
-    if(0==strcmp(argv[2], "test")) test_detector(datacfg, cfg, weights, filename, thresh, hier_thresh);
+    if(0==strcmp(argv[2], "test") || 0==strcmp(argv[2], "testimg")) test_detector(datacfg, cfg, weights, filename, thresh, hier_thresh);
     else if(0==strcmp(argv[2], "train")) train_detector(datacfg, cfg, weights, gpus, ngpus, clear);
     else if(0==strcmp(argv[2], "valid")) validate_detector(datacfg, cfg, weights, outfile);
     else if(0==strcmp(argv[2], "recall")) validate_detector_recall(cfg, weights);
-    else if(0==strcmp(argv[2], "demo")) {
+    else if(0==strcmp(argv[2], "demo") || 0==strcmp(argv[2], "testvid")) {
         list *options = read_data_cfg(datacfg);
         int classes = option_find_int(options, "classes", 20);
         char *name_list = option_find_str(options, "names", "data/names.list");

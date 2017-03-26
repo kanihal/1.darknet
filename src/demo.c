@@ -8,13 +8,15 @@
 #include "image.h"
 #include "demo.h"
 #include <sys/time.h>
-
+#include "post_predictions.h"
 #define FRAMES 3
 
-#ifdef OPENCV
+//#ifdef OPENCV
 #include "opencv2/highgui/highgui_c.h"
 #include "opencv2/imgproc/imgproc_c.h"
 image get_image_from_stream(CvCapture *cap);
+image ipl_to_image(IplImage* src);
+IplImage* image_to_Ipl(image img, int w, int h, int depth, int c, int step);
 
 static char **demo_names;
 static image **demo_alphabet;
@@ -29,6 +31,8 @@ static image det  ;
 static image det_s;
 static image disp = {0};
 static CvCapture * cap;
+static CvVideoWriter* writer;
+
 static float fps = 0;
 static float demo_thresh = 0;
 static float demo_hier_thresh = .5;
@@ -38,12 +42,33 @@ static int demo_index = 0;
 static image images[FRAMES];
 static float *avg;
 
+char* file;
+
+static int w, h, depth, c, step= 0;
+
 void *fetch_in_thread(void *ptr)
 {
-    in = get_image_from_stream(cap);
-    if(!in.data){
+    //    in = get_image_from_stream(cap);
+    //    if(!in.data){
+    //        cvReleaseVideoWriter(&writer);
+    //        error("Stream closed.");
+    //    }
+    IplImage* frame = cvQueryFrame(cap);
+    if (!frame) {
         error("Stream closed.");
     }
+    if(step == 0)
+    {
+        w = frame->width;
+        h = frame->height;
+        c = frame->nChannels;
+        depth= frame->depth;
+        step = frame->widthStep;
+    }
+
+    in = ipl_to_image(frame);
+    rgbgr_image(in);
+
     in_s = resize_image(in, net.w, net.h);
     return 0;
 }
@@ -79,7 +104,19 @@ void *detect_in_thread(void *ptr)
     demo_index = (demo_index + 1)%FRAMES;
 
     draw_detections(det, l.w*l.h*l.n, demo_thresh, boxes, probs, demo_names, demo_alphabet, demo_classes);
+    save_detections(file, l.w*l.h*l.n, in.w, in.h, demo_thresh, boxes, probs, demo_names, demo_classes);
 
+    //jaggi
+    IplImage* outputIpl= image_to_Ipl(det, w, h, depth, c, step);
+    //    cv::Mat outputMat = cv::cvarrToMat(outputIpl, true);
+    /*
+     cvNamedWindow("image", CV_WINDOW_AUTOSIZE);
+     cvShowImage("image", outputIpl);
+     cvWaitKey(1);
+    */
+
+    cvWriteFrame(writer,outputIpl);
+    cvReleaseImage(&outputIpl);
     return 0;
 }
 
@@ -114,11 +151,21 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
     if(filename){
         printf("video file: %s\n", filename);
         cap = cvCaptureFromFile(filename);
+        if(!cap)
+            error("Couldn't read video file.\n");
+        file=filename;
+        //writer=cvCreateVideoWriter("predicitons.mp4",-1,30,cvSize(600,600),1);
+        CvSize size = cvSize((int)cvGetCaptureProperty(cap,CV_CAP_PROP_FRAME_WIDTH), (int)cvGetCaptureProperty(cap,CV_CAP_PROP_FRAME_HEIGHT));
+        writer = cvCreateVideoWriter("out.avi", CV_FOURCC('D','I','V','X'), cvGetCaptureProperty(cap,CV_CAP_PROP_FPS),size, 1);
+        if(!writer)
+            error("Couldn't open writer.\n");
     }else{
         cap = cvCaptureFromCAM(cam_index);
+        if(!cap)
+            error("Couldn't connect to webcam.\n");
     }
 
-    if(!cap) error("Couldn't connect to webcam.\n");
+
 
     layer l = net.layers[net.n-1];
     int j;
@@ -154,7 +201,7 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
 
     int count = 0;
     if(!prefix){
-        cvNamedWindow("Demo", CV_WINDOW_NORMAL); 
+        cvNamedWindow("Demo", CV_WINDOW_NORMAL);
         cvMoveWindow("Demo", 0, 0);
         cvResizeWindow("Demo", 1352, 1013);
     }
@@ -168,15 +215,24 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
             if(pthread_create(&detect_thread, 0, detect_in_thread, 0)) error("Thread creation failed");
 
             if(!prefix){
+                //                printf("wii");//hitting this
+                printf("trying to write to video\n");
+                IplImage *img = cvCreateImage(cvSize(disp.w,disp.h), IPL_DEPTH_8U, disp.c);
+                IplImage *buffer = img;
+                img = cvCreateImage(cvSize(600, 600), buffer->depth, buffer->nChannels);
+                cvResize(buffer, img, CV_INTER_LINEAR);
+                cvWriteFrame(writer,img);
+                printf("written to video\n");
                 show_image(disp, "Demo");
                 int c = cvWaitKey(1);
                 if (c == 10){
                     if(frame_skip == 0) frame_skip = 60;
                     else if(frame_skip == 4) frame_skip = 0;
-                    else if(frame_skip == 60) frame_skip = 4;   
+                    else if(frame_skip == 60) frame_skip = 4;
                     else frame_skip = 0;
                 }
             }else{
+                //                printf("wie");
                 char buff[256];
                 sprintf(buff, "%s_%08d", prefix, count);
                 save_image(disp, buff);
@@ -192,6 +248,7 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
             det   = in;
             det_s = in_s;
         }else {
+            //            printf("we");
             fetch_in_thread(0);
             det   = in;
             det_s = in_s;
@@ -200,6 +257,7 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
                 free_image(disp);
                 disp = det;
             }
+
             show_image(disp, "Demo");
             cvWaitKey(1);
         }
@@ -213,11 +271,12 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
             before = after;
         }
     }
+
 }
-#else
-void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const char *filename, char **names, int classes, int frame_skip, char *prefix, float hier_thresh)
-{
-    fprintf(stderr, "Demo needs OpenCV for webcam images.\n");
-}
-#endif
+//#else
+//void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const char *filename, char **names, int classes, int frame_skip, char *prefix, float hier_thresh)
+//{
+//    fprintf(stderr, "Demo needs OpenCV for webcam images.\n");
+//}
+//#endif
 

@@ -1,0 +1,4 @@
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/dog.jpg,768,576,0.240000,456,673,77,174,0.538743,car
+data/dog.jpg,768,576,0.240000,99,557,124,439,0.508629,bicycle
+data/dog.jpg,768,576,0.240000,116,320,211,540,0.558422,dog

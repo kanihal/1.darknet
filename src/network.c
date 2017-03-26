@@ -154,6 +154,25 @@ void forward_network(network net, network_state state)
         }
         l.forward(l, state);
         state.input = l.output;
+        /*
+        //Jaggi - enter feature tap  code here
+        int m,n,o;
+        if(i==10){
+            fprintf(stdout, "layer10 dimensions\n");
+            fprintf(stdout,"%d, %d, %d \n",l.h,l.w,l.c);
+            fprintf(stdout,"%d, %d, %d \n",l.out_h,l.out_w,l.out_c);
+            fprintf(stdout, "layer10 feature vector\n");
+            for(m=0;m<l.out_h;m++){
+                fprintf(stdout,"*************************************************************************\n");
+                for(n=0;n<l.out_w;n++){
+                    for(o=0;o<l.out_c;o++){
+                        fprintf(stdout," %f ",l.output[m+n+o]);
+                    }
+                    fprintf(stdout,"\n");
+                }
+            }
+        }
+        */
     }
 }
 
@@ -194,6 +213,7 @@ float get_network_cost(network net)
     return sum/count;
 }
 
+//jaggi - this is where the class prediction is happening
 int get_predicted_class_network(network net)
 {
     float *out = get_network_output(net);

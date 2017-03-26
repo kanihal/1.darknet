@@ -1,0 +1,1184 @@
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,244,297,89,158,0.328360,person
+data/football.mp4,480,288,0.240000,26,81,113,178,0.279408,person
+data/football.mp4,480,288,0.240000,360,431,105,168,0.279403,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,71,114,21,82,0.276284,person
+data/football.mp4,480,288,0.240000,195,234,47,120,0.489573,person
+data/football.mp4,480,288,0.240000,107,145,70,131,0.322717,person
+data/football.mp4,480,288,0.240000,137,181,71,128,0.292146,person
+data/football.mp4,480,288,0.240000,251,288,89,161,0.727600,person
+data/football.mp4,480,288,0.240000,32,79,112,180,0.661405,person
+data/football.mp4,480,288,0.240000,130,196,95,189,0.554064,person
+data/football.mp4,480,288,0.240000,365,423,102,166,0.561105,person
+data/football.mp4,480,288,0.240000,68,115,127,191,0.397780,person
+data/football.mp4,480,288,0.240000,100,166,124,200,0.438142,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,107,148,70,130,0.305866,person
+data/football.mp4,480,288,0.240000,189,238,56,132,0.475618,person
+data/football.mp4,480,288,0.240000,213,268,87,158,0.275720,person
+data/football.mp4,480,288,0.240000,253,289,92,160,0.747292,person
+data/football.mp4,480,288,0.240000,356,403,103,159,0.556130,person
+data/football.mp4,480,288,0.240000,38,86,112,180,0.682179,person
+data/football.mp4,480,288,0.240000,62,109,111,180,0.463397,person
+data/football.mp4,480,288,0.240000,130,191,97,189,0.568387,person
+data/football.mp4,480,288,0.240000,97,171,126,199,0.475475,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,29,88,19,77,0.256445,person
+data/football.mp4,480,288,0.240000,84,121,65,132,0.274581,person
+data/football.mp4,480,288,0.240000,183,240,55,135,0.535495,person
+data/football.mp4,480,288,0.240000,212,264,88,162,0.309718,person
+data/football.mp4,480,288,0.240000,254,296,95,161,0.747117,person
+data/football.mp4,480,288,0.240000,350,398,101,160,0.439673,person
+data/football.mp4,480,288,0.240000,43,88,113,179,0.650384,person
+data/football.mp4,480,288,0.240000,133,186,102,187,0.487193,person
+data/football.mp4,480,288,0.240000,98,172,123,202,0.449122,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,80,120,65,134,0.338109,person
+data/football.mp4,480,288,0.240000,178,243,53,143,0.638510,person
+data/football.mp4,480,288,0.240000,207,257,86,161,0.311405,person
+data/football.mp4,480,288,0.240000,256,303,96,160,0.749506,person
+data/football.mp4,480,288,0.240000,327,382,101,161,0.613232,person
+data/football.mp4,480,288,0.240000,46,85,111,177,0.610439,person
+data/football.mp4,480,288,0.240000,63,111,103,178,0.281435,person
+data/football.mp4,480,288,0.240000,103,164,99,185,0.447914,person
+data/football.mp4,480,288,0.240000,129,180,125,200,0.447660,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,173,243,53,147,0.742446,person
+data/football.mp4,480,288,0.240000,73,115,78,163,0.408224,person
+data/football.mp4,480,288,0.240000,259,310,95,159,0.533666,person
+data/football.mp4,480,288,0.240000,282,333,95,160,0.349847,person
+data/football.mp4,480,288,0.240000,315,370,98,163,0.422936,person
+data/football.mp4,480,288,0.240000,44,82,106,178,0.547843,person
+data/football.mp4,480,288,0.240000,102,164,98,186,0.463611,person
+data/football.mp4,480,288,0.240000,128,179,129,202,0.391215,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,172,238,54,147,0.756833,person
+data/football.mp4,480,288,0.240000,72,116,78,163,0.387090,person
+data/football.mp4,480,288,0.240000,284,330,92,160,0.582334,person
+data/football.mp4,480,288,0.240000,39,81,101,178,0.510927,person
+data/football.mp4,480,288,0.240000,101,160,98,185,0.502576,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,210,244,48,114,0.348251,person
+data/football.mp4,480,288,0.240000,168,228,56,139,0.615051,person
+data/football.mp4,480,288,0.240000,38,83,79,168,0.446133,person
+data/football.mp4,480,288,0.240000,74,115,82,157,0.337355,person
+data/football.mp4,480,288,0.240000,263,312,94,160,0.246603,person
+data/football.mp4,480,288,0.240000,286,327,90,158,0.642717,person
+data/football.mp4,480,288,0.240000,99,165,123,201,0.481102,person
+data/football.mp4,480,288,0.240000,24,81,161,212,0.266089,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,74,102,62,100,0.294601,person
+data/football.mp4,480,288,0.240000,211,245,49,117,0.560527,person
+data/football.mp4,480,288,0.240000,167,220,55,134,0.474791,person
+data/football.mp4,480,288,0.240000,222,244,85,111,0.249145,person
+data/football.mp4,480,288,0.240000,34,81,79,165,0.483296,person
+data/football.mp4,480,288,0.240000,75,116,86,152,0.321545,person
+data/football.mp4,480,288,0.240000,100,145,92,151,0.292689,person
+data/football.mp4,480,288,0.240000,152,194,86,149,0.285399,person
+data/football.mp4,480,288,0.240000,259,305,94,163,0.385754,person
+data/football.mp4,480,288,0.240000,289,329,90,158,0.605274,person
+data/football.mp4,480,288,0.240000,95,165,124,202,0.517279,person
+data/football.mp4,480,288,0.240000,9,54,158,214,0.278070,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,70,98,61,101,0.304030,person
+data/football.mp4,480,288,0.240000,170,212,42,124,0.386913,person
+data/football.mp4,480,288,0.240000,212,252,51,114,0.463124,person
+data/football.mp4,480,288,0.240000,154,198,63,137,0.457579,person
+data/football.mp4,480,288,0.240000,31,80,79,162,0.533454,person
+data/football.mp4,480,288,0.240000,74,116,86,151,0.360070,person
+data/football.mp4,480,288,0.240000,103,148,90,150,0.286688,person
+data/football.mp4,480,288,0.240000,146,186,86,148,0.369892,person
+data/football.mp4,480,288,0.240000,296,339,90,158,0.445013,person
+data/football.mp4,480,288,0.240000,251,292,99,171,0.541055,person
+data/football.mp4,480,288,0.240000,93,168,123,205,0.531536,person
+data/football.mp4,480,288,0.240000,7,53,159,214,0.437622,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,68,94,60,100,0.250793,person
+data/football.mp4,480,288,0.240000,170,210,40,124,0.464924,person
+data/football.mp4,480,288,0.240000,147,193,62,135,0.349779,person
+data/football.mp4,480,288,0.240000,212,265,57,138,0.557171,person
+data/football.mp4,480,288,0.240000,31,80,77,162,0.552234,person
+data/football.mp4,480,288,0.240000,73,116,82,153,0.401286,person
+data/football.mp4,480,288,0.240000,108,156,85,155,0.278230,person
+data/football.mp4,480,288,0.240000,244,287,90,165,0.365208,person
+data/football.mp4,480,288,0.240000,295,345,89,158,0.283161,person
+data/football.mp4,480,288,0.240000,322,357,83,158,0.446398,person
+data/football.mp4,480,288,0.240000,97,165,97,193,0.435261,person
+data/football.mp4,480,288,0.240000,4,48,156,218,0.517411,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,172,216,43,118,0.566293,person
+data/football.mp4,480,288,0.240000,32,82,79,161,0.496486,person
+data/football.mp4,480,288,0.240000,69,113,81,155,0.378011,person
+data/football.mp4,480,288,0.240000,226,269,80,157,0.629343,person
+data/football.mp4,480,288,0.240000,335,371,81,155,0.590816,person
+data/football.mp4,480,288,0.240000,98,168,92,199,0.581946,person
+data/football.mp4,480,288,0.240000,2,43,155,224,0.473153,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,39,65,60,91,0.278582,person
+data/football.mp4,480,288,0.240000,180,227,45,119,0.683969,person
+data/football.mp4,480,288,0.240000,240,294,51,111,0.341527,person
+data/football.mp4,480,288,0.240000,113,158,75,128,0.291867,person
+data/football.mp4,480,288,0.240000,4,43,84,151,0.256831,person
+data/football.mp4,480,288,0.240000,31,84,80,157,0.505031,person
+data/football.mp4,480,288,0.240000,66,113,81,154,0.391377,person
+data/football.mp4,480,288,0.240000,222,268,82,156,0.709882,person
+data/football.mp4,480,288,0.240000,339,381,79,156,0.374337,person
+data/football.mp4,480,288,0.240000,102,170,93,199,0.573233,person
+data/football.mp4,480,288,0.240000,1,39,153,230,0.343113,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,42,71,59,91,0.356819,person
+data/football.mp4,480,288,0.240000,75,101,58,95,0.273438,person
+data/football.mp4,480,288,0.240000,186,234,49,116,0.520645,person
+data/football.mp4,480,288,0.240000,240,295,50,114,0.575859,person
+data/football.mp4,480,288,0.240000,109,156,73,127,0.341584,person
+data/football.mp4,480,288,0.240000,27,85,82,152,0.478276,person
+data/football.mp4,480,288,0.240000,63,114,82,152,0.401769,person
+data/football.mp4,480,288,0.240000,215,265,84,155,0.737840,person
+data/football.mp4,480,288,0.240000,365,406,74,153,0.505947,person
+data/football.mp4,480,288,0.240000,102,170,96,197,0.535466,person
+data/football.mp4,480,288,0.240000,1,40,167,245,0.459780,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,45,74,58,92,0.360415,person
+data/football.mp4,480,288,0.240000,78,104,57,94,0.260829,person
+data/football.mp4,480,288,0.240000,184,234,50,114,0.293842,person
+data/football.mp4,480,288,0.240000,240,306,50,117,0.665097,person
+data/football.mp4,480,288,0.240000,107,157,72,129,0.355897,person
+data/football.mp4,480,288,0.240000,26,82,80,149,0.561911,person
+data/football.mp4,480,288,0.240000,68,117,80,154,0.508956,person
+data/football.mp4,480,288,0.240000,209,260,86,154,0.721492,person
+data/football.mp4,480,288,0.240000,368,422,77,152,0.373071,person
+data/football.mp4,480,288,0.240000,393,442,73,156,0.476562,person
+data/football.mp4,480,288,0.240000,107,167,97,192,0.446425,person
+data/football.mp4,480,288,0.240000,128,183,124,206,0.457167,person
+data/football.mp4,480,288,0.240000,3,45,169,249,0.560724,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,28,79,66,140,0.591136,person
+data/football.mp4,480,288,0.240000,227,319,56,129,0.561376,person
+data/football.mp4,480,288,0.240000,75,120,77,156,0.558933,person
+data/football.mp4,480,288,0.240000,100,159,82,157,0.401170,person
+data/football.mp4,480,288,0.240000,206,259,85,152,0.580658,person
+data/football.mp4,480,288,0.240000,397,453,75,153,0.494554,person
+data/football.mp4,480,288,0.240000,434,474,74,160,0.255711,person
+data/football.mp4,480,288,0.240000,108,166,124,203,0.310604,person
+data/football.mp4,480,288,0.240000,131,193,123,207,0.583408,person
+data/football.mp4,480,288,0.240000,5,51,170,248,0.534058,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,32,80,65,142,0.695778,person
+data/football.mp4,480,288,0.240000,226,327,56,132,0.677010,person
+data/football.mp4,480,288,0.240000,79,121,74,158,0.484288,person
+data/football.mp4,480,288,0.240000,101,151,77,161,0.533176,person
+data/football.mp4,480,288,0.240000,209,257,85,152,0.578251,person
+data/football.mp4,480,288,0.240000,435,475,77,156,0.475143,person
+data/football.mp4,480,288,0.240000,136,199,119,207,0.606587,person
+data/football.mp4,480,288,0.240000,19,74,175,252,0.346444,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,39,85,66,143,0.704052,person
+data/football.mp4,480,288,0.240000,270,337,58,131,0.526820,person
+data/football.mp4,480,288,0.240000,76,118,73,156,0.433603,person
+data/football.mp4,480,288,0.240000,103,148,72,164,0.594403,person
+data/football.mp4,480,288,0.240000,214,259,85,152,0.604535,person
+data/football.mp4,480,288,0.240000,444,477,71,161,0.441116,person
+data/football.mp4,480,288,0.240000,140,200,116,208,0.516906,person
+data/football.mp4,480,288,0.240000,22,80,176,250,0.486278,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,46,87,66,145,0.616985,person
+data/football.mp4,480,288,0.240000,65,104,57,149,0.496415,person
+data/football.mp4,480,288,0.240000,269,351,57,134,0.778493,person
+data/football.mp4,480,288,0.240000,108,147,72,163,0.571535,person
+data/football.mp4,480,288,0.240000,219,260,84,156,0.729361,person
+data/football.mp4,480,288,0.240000,140,195,112,211,0.494980,person
+data/football.mp4,480,288,0.240000,171,225,114,211,0.625178,person
+data/football.mp4,480,288,0.240000,27,86,178,250,0.479480,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,46,88,66,143,0.359327,person
+data/football.mp4,480,288,0.240000,65,105,59,149,0.602741,person
+data/football.mp4,480,288,0.240000,111,151,55,149,0.469756,person
+data/football.mp4,480,288,0.240000,273,361,59,136,0.761328,person
+data/football.mp4,480,288,0.240000,220,265,81,158,0.630666,person
+data/football.mp4,480,288,0.240000,117,161,107,180,0.240381,person
+data/football.mp4,480,288,0.240000,136,193,113,214,0.563631,person
+data/football.mp4,480,288,0.240000,170,231,113,210,0.595060,person
+data/football.mp4,480,288,0.240000,31,90,179,251,0.476785,person
+data/football.mp4,480,288,0.240000,47,112,193,263,0.325845,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,70,112,60,150,0.669733,person
+data/football.mp4,480,288,0.240000,111,152,54,148,0.424704,person
+data/football.mp4,480,288,0.240000,143,186,67,131,0.331449,person
+data/football.mp4,480,288,0.240000,178,219,74,125,0.332065,person
+data/football.mp4,480,288,0.240000,279,362,62,139,0.644383,person
+data/football.mp4,480,288,0.240000,218,269,80,159,0.500045,person
+data/football.mp4,480,288,0.240000,130,194,112,218,0.678320,person
+data/football.mp4,480,288,0.240000,162,237,111,209,0.586427,person
+data/football.mp4,480,288,0.240000,214,258,111,209,0.282546,person
+data/football.mp4,480,288,0.240000,42,120,185,267,0.606058,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,77,122,64,148,0.600316,person
+data/football.mp4,480,288,0.240000,107,150,58,145,0.356256,person
+data/football.mp4,480,288,0.240000,142,183,65,133,0.360102,person
+data/football.mp4,480,288,0.240000,182,225,74,123,0.357453,person
+data/football.mp4,480,288,0.240000,224,269,75,128,0.370063,person
+data/football.mp4,480,288,0.240000,246,289,71,129,0.286955,person
+data/football.mp4,480,288,0.240000,308,371,64,141,0.577570,person
+data/football.mp4,480,288,0.240000,217,266,93,191,0.370475,person
+data/football.mp4,480,288,0.240000,132,195,114,217,0.684172,person
+data/football.mp4,480,288,0.240000,159,242,111,207,0.604559,person
+data/football.mp4,480,288,0.240000,39,123,182,269,0.653350,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,190,222,79,115,0.375289,person
+data/football.mp4,480,288,0.240000,243,283,72,128,0.352316,person
+data/football.mp4,480,288,0.240000,314,369,64,139,0.522829,person
+data/football.mp4,480,288,0.240000,79,126,74,156,0.598623,person
+data/football.mp4,480,288,0.240000,100,145,73,159,0.416472,person
+data/football.mp4,480,288,0.240000,137,181,78,157,0.412928,person
+data/football.mp4,480,288,0.240000,217,268,80,154,0.328182,person
+data/football.mp4,480,288,0.240000,136,194,113,216,0.679559,person
+data/football.mp4,480,288,0.240000,165,244,112,207,0.582891,person
+data/football.mp4,480,288,0.240000,245,292,117,208,0.401939,person
+data/football.mp4,480,288,0.240000,41,126,181,270,0.669994,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,192,221,82,116,0.320920,person
+data/football.mp4,480,288,0.240000,224,253,83,116,0.265683,person
+data/football.mp4,480,288,0.240000,244,284,74,127,0.378438,person
+data/football.mp4,480,288,0.240000,319,367,64,139,0.534288,person
+data/football.mp4,480,288,0.240000,82,126,80,157,0.518863,person
+data/football.mp4,480,288,0.240000,140,185,79,159,0.354543,person
+data/football.mp4,480,288,0.240000,220,267,82,155,0.318787,person
+data/football.mp4,480,288,0.240000,2,34,126,204,0.275346,person
+data/football.mp4,480,288,0.240000,139,192,113,216,0.634896,person
+data/football.mp4,480,288,0.240000,169,242,113,208,0.594923,person
+data/football.mp4,480,288,0.240000,248,303,117,211,0.582376,person
+data/football.mp4,480,288,0.240000,46,127,183,271,0.657514,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,193,220,83,114,0.254267,person
+data/football.mp4,480,288,0.240000,229,257,83,115,0.251746,person
+data/football.mp4,480,288,0.240000,243,285,77,127,0.306549,person
+data/football.mp4,480,288,0.240000,83,126,87,155,0.320884,person
+data/football.mp4,480,288,0.240000,98,148,78,159,0.525851,person
+data/football.mp4,480,288,0.240000,138,187,82,158,0.257283,person
+data/football.mp4,480,288,0.240000,223,268,83,156,0.320224,person
+data/football.mp4,480,288,0.240000,325,371,74,159,0.560286,person
+data/football.mp4,480,288,0.240000,7,43,128,203,0.430783,person
+data/football.mp4,480,288,0.240000,137,192,114,215,0.582717,person
+data/football.mp4,480,288,0.240000,172,237,114,210,0.617006,person
+data/football.mp4,480,288,0.240000,245,313,116,212,0.639062,person
+data/football.mp4,480,288,0.240000,49,130,189,278,0.723971,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,99,153,81,157,0.371664,person
+data/football.mp4,480,288,0.240000,241,288,87,154,0.427400,person
+data/football.mp4,480,288,0.240000,331,376,72,167,0.673624,person
+data/football.mp4,480,288,0.240000,111,224,68,220,0.339738,person
+data/football.mp4,480,288,0.240000,214,259,97,184,0.304269,person
+data/football.mp4,480,288,0.240000,9,45,122,211,0.343564,person
+data/football.mp4,480,288,0.240000,21,71,128,208,0.422985,person
+data/football.mp4,480,288,0.240000,132,198,120,210,0.430023,person
+data/football.mp4,480,288,0.240000,170,237,117,211,0.602451,person
+data/football.mp4,480,288,0.240000,239,321,120,211,0.565640,person
+data/football.mp4,480,288,0.240000,50,133,191,282,0.738374,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,103,157,84,155,0.315364,person
+data/football.mp4,480,288,0.240000,241,286,87,156,0.523073,person
+data/football.mp4,480,288,0.240000,333,382,75,169,0.710721,person
+data/football.mp4,480,288,0.240000,211,258,95,185,0.355553,person
+data/football.mp4,480,288,0.240000,31,75,130,204,0.661444,person
+data/football.mp4,480,288,0.240000,128,201,127,203,0.306976,person
+data/football.mp4,480,288,0.240000,170,239,121,207,0.540590,person
+data/football.mp4,480,288,0.240000,270,341,123,212,0.653575,person
+data/football.mp4,480,288,0.240000,53,139,191,281,0.754152,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,242,288,85,159,0.561314,person
+data/football.mp4,480,288,0.240000,334,386,80,168,0.618463,person
+data/football.mp4,480,288,0.240000,148,253,71,219,0.515591,person
+data/football.mp4,480,288,0.240000,214,263,93,187,0.470792,person
+data/football.mp4,480,288,0.240000,42,88,132,201,0.640023,person
+data/football.mp4,480,288,0.240000,170,242,121,207,0.503105,person
+data/football.mp4,480,288,0.240000,241,320,131,201,0.450533,person
+data/football.mp4,480,288,0.240000,270,350,122,210,0.724705,person
+data/football.mp4,480,288,0.240000,60,143,189,277,0.712508,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,243,288,84,162,0.442456,person
+data/football.mp4,480,288,0.240000,351,417,77,160,0.654780,person
+data/football.mp4,480,288,0.240000,385,437,76,162,0.254375,person
+data/football.mp4,480,288,0.240000,222,269,92,188,0.508856,person
+data/football.mp4,480,288,0.240000,328,381,102,183,0.488850,person
+data/football.mp4,480,288,0.240000,45,93,129,201,0.453761,person
+data/football.mp4,480,288,0.240000,171,240,118,211,0.517126,person
+data/football.mp4,480,288,0.240000,246,316,126,200,0.373726,person
+data/football.mp4,480,288,0.240000,272,355,118,207,0.658365,person
+data/football.mp4,480,288,0.240000,92,159,186,276,0.552975,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,28,73,43,114,0.423563,person
+data/football.mp4,480,288,0.240000,135,190,78,163,0.324106,person
+data/football.mp4,480,288,0.240000,352,419,82,160,0.482095,person
+data/football.mp4,480,288,0.240000,385,440,75,162,0.508125,person
+data/football.mp4,480,288,0.240000,225,272,94,186,0.413978,person
+data/football.mp4,480,288,0.240000,325,380,102,188,0.476659,person
+data/football.mp4,480,288,0.240000,55,108,121,204,0.607058,person
+data/football.mp4,480,288,0.240000,173,236,114,215,0.455537,person
+data/football.mp4,480,288,0.240000,247,312,121,204,0.295573,person
+data/football.mp4,480,288,0.240000,273,356,119,206,0.578412,person
+data/football.mp4,480,288,0.240000,101,167,186,277,0.694022,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,40,84,40,116,0.343839,person
+data/football.mp4,480,288,0.240000,139,193,76,164,0.420917,person
+data/football.mp4,480,288,0.240000,352,412,85,161,0.407150,person
+data/football.mp4,480,288,0.240000,391,449,77,164,0.734838,person
+data/football.mp4,480,288,0.240000,224,271,97,184,0.274064,person
+data/football.mp4,480,288,0.240000,243,300,96,185,0.441401,person
+data/football.mp4,480,288,0.240000,58,109,116,204,0.637135,person
+data/football.mp4,480,288,0.240000,172,233,116,213,0.349137,person
+data/football.mp4,480,288,0.240000,313,373,114,208,0.530569,person
+data/football.mp4,480,288,0.240000,161,242,94,280,0.315837,person
+data/football.mp4,480,288,0.240000,109,173,187,280,0.566951,person
+data/football.mp4,480,288,0.240000,174,220,178,287,0.255148,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,60,107,44,111,0.331249,person
+data/football.mp4,480,288,0.240000,143,197,78,163,0.394408,person
+data/football.mp4,480,288,0.240000,149,246,55,193,0.339680,person
+data/football.mp4,480,288,0.240000,350,403,86,162,0.349410,person
+data/football.mp4,480,288,0.240000,398,457,80,166,0.750316,person
+data/football.mp4,480,288,0.240000,245,304,95,184,0.527654,person
+data/football.mp4,480,288,0.240000,60,106,113,203,0.586746,person
+data/football.mp4,480,288,0.240000,313,378,120,207,0.623420,person
+data/football.mp4,480,288,0.240000,123,194,185,283,0.455110,person
+data/football.mp4,480,288,0.240000,180,225,181,285,0.271367,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,68,112,44,111,0.538999,person
+data/football.mp4,480,288,0.240000,146,197,82,161,0.337678,person
+data/football.mp4,480,288,0.240000,227,266,80,157,0.313244,person
+data/football.mp4,480,288,0.240000,341,381,83,156,0.416552,person
+data/football.mp4,480,288,0.240000,399,460,81,167,0.738211,person
+data/football.mp4,480,288,0.240000,58,103,100,195,0.662823,person
+data/football.mp4,480,288,0.240000,166,236,100,185,0.349475,person
+data/football.mp4,480,288,0.240000,248,307,95,183,0.606489,person
+data/football.mp4,480,288,0.240000,311,380,122,208,0.745888,person
+data/football.mp4,480,288,0.240000,127,199,183,283,0.335238,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,75,123,44,111,0.480034,person
+data/football.mp4,480,288,0.240000,146,195,86,157,0.267022,person
+data/football.mp4,480,288,0.240000,226,265,83,154,0.401135,person
+data/football.mp4,480,288,0.240000,340,382,82,157,0.483417,person
+data/football.mp4,480,288,0.240000,399,464,78,164,0.699704,person
+data/football.mp4,480,288,0.240000,58,101,101,190,0.688993,person
+data/football.mp4,480,288,0.240000,167,236,102,186,0.396036,person
+data/football.mp4,480,288,0.240000,252,309,91,184,0.569651,person
+data/football.mp4,480,288,0.240000,306,386,122,209,0.763554,person
+data/football.mp4,480,288,0.240000,133,206,184,281,0.254170,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,96,147,42,105,0.337798,person
+data/football.mp4,480,288,0.240000,175,222,47,108,0.289277,person
+data/football.mp4,480,288,0.240000,221,264,82,154,0.336420,person
+data/football.mp4,480,288,0.240000,335,383,80,158,0.471546,person
+data/football.mp4,480,288,0.240000,394,466,72,163,0.490616,person
+data/football.mp4,480,288,0.240000,59,103,102,184,0.633419,person
+data/football.mp4,480,288,0.240000,169,237,102,187,0.461935,person
+data/football.mp4,480,288,0.240000,259,307,93,183,0.429585,person
+data/football.mp4,480,288,0.240000,304,392,120,209,0.721468,person
+data/football.mp4,480,288,0.240000,166,240,184,276,0.293285,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,106,153,39,103,0.501616,person
+data/football.mp4,480,288,0.240000,173,224,44,108,0.324439,person
+data/football.mp4,480,288,0.240000,341,383,67,136,0.515073,person
+data/football.mp4,480,288,0.240000,428,471,53,157,0.359410,person
+data/football.mp4,480,288,0.240000,220,262,81,157,0.305220,person
+data/football.mp4,480,288,0.240000,281,337,88,158,0.261592,person
+data/football.mp4,480,288,0.240000,63,106,102,181,0.605688,person
+data/football.mp4,480,288,0.240000,175,238,96,193,0.519217,person
+data/football.mp4,480,288,0.240000,261,307,91,185,0.325411,person
+data/football.mp4,480,288,0.240000,309,400,122,207,0.606900,person
+data/football.mp4,480,288,0.240000,199,275,191,276,0.366312,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,112,161,27,92,0.407916,person
+data/football.mp4,480,288,0.240000,131,184,22,98,0.303990,person
+data/football.mp4,480,288,0.240000,172,227,41,109,0.304077,person
+data/football.mp4,480,288,0.240000,340,386,61,140,0.510442,person
+data/football.mp4,480,288,0.240000,427,474,56,154,0.566620,person
+data/football.mp4,480,288,0.240000,283,343,84,160,0.379471,person
+data/football.mp4,480,288,0.240000,68,114,99,180,0.638306,person
+data/football.mp4,480,288,0.240000,182,239,92,197,0.497931,person
+data/football.mp4,480,288,0.240000,311,382,96,192,0.462055,person
+data/football.mp4,480,288,0.240000,344,411,130,197,0.367536,person
+data/football.mp4,480,288,0.240000,198,283,184,279,0.297803,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,134,180,24,94,0.446340,person
+data/football.mp4,480,288,0.240000,171,228,40,107,0.266899,person
+data/football.mp4,480,288,0.240000,348,397,59,142,0.576281,person
+data/football.mp4,480,288,0.240000,430,479,57,152,0.672921,person
+data/football.mp4,480,288,0.240000,288,348,80,164,0.403768,person
+data/football.mp4,480,288,0.240000,74,125,100,178,0.657616,person
+data/football.mp4,480,288,0.240000,187,239,91,198,0.444428,person
+data/football.mp4,480,288,0.240000,207,268,89,202,0.533735,person
+data/football.mp4,480,288,0.240000,249,295,89,193,0.337229,person
+data/football.mp4,480,288,0.240000,312,377,91,193,0.453779,person
+data/football.mp4,480,288,0.240000,346,421,129,196,0.576390,person
+data/football.mp4,480,288,0.240000,201,296,182,280,0.282452,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,145,187,23,90,0.472127,person
+data/football.mp4,480,288,0.240000,350,399,56,142,0.680486,person
+data/football.mp4,480,288,0.240000,437,479,53,148,0.706987,person
+data/football.mp4,480,288,0.240000,292,347,75,170,0.337168,person
+data/football.mp4,480,288,0.240000,76,129,103,176,0.447966,person
+data/football.mp4,480,288,0.240000,188,239,93,191,0.355137,person
+data/football.mp4,480,288,0.240000,206,271,85,200,0.574115,person
+data/football.mp4,480,288,0.240000,247,291,84,196,0.353755,person
+data/football.mp4,480,288,0.240000,314,371,84,198,0.396626,person
+data/football.mp4,480,288,0.240000,356,429,126,196,0.578777,person
+data/football.mp4,480,288,0.240000,236,320,180,275,0.246841,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,211,254,25,84,0.262176,person
+data/football.mp4,480,288,0.240000,174,226,37,111,0.250647,person
+data/football.mp4,480,288,0.240000,352,401,50,142,0.667297,person
+data/football.mp4,480,288,0.240000,443,479,48,147,0.656392,person
+data/football.mp4,480,288,0.240000,100,148,96,158,0.483781,person
+data/football.mp4,480,288,0.240000,182,233,81,160,0.260208,person
+data/football.mp4,480,288,0.240000,247,295,65,180,0.430753,person
+data/football.mp4,480,288,0.240000,294,344,70,174,0.309233,person
+data/football.mp4,480,288,0.240000,313,373,65,181,0.422893,person
+data/football.mp4,480,288,0.240000,203,275,84,195,0.534985,person
+data/football.mp4,480,288,0.240000,360,434,128,195,0.466601,person
+data/football.mp4,480,288,0.240000,278,350,182,269,0.253806,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,214,258,21,86,0.262401,person
+data/football.mp4,480,288,0.240000,177,226,62,133,0.267603,person
+data/football.mp4,480,288,0.240000,358,405,46,147,0.627887,person
+data/football.mp4,480,288,0.240000,445,479,42,151,0.442706,person
+data/football.mp4,480,288,0.240000,105,161,95,158,0.690771,person
+data/football.mp4,480,288,0.240000,200,292,52,193,0.579369,person
+data/football.mp4,480,288,0.240000,246,303,58,184,0.460644,person
+data/football.mp4,480,288,0.240000,293,340,70,172,0.295007,person
+data/football.mp4,480,288,0.240000,316,374,63,179,0.469384,person
+data/football.mp4,480,288,0.240000,288,412,74,258,0.270444,person
+data/football.mp4,480,288,0.240000,374,449,130,187,0.244508,person
+data/football.mp4,480,288,0.240000,273,356,176,274,0.241653,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,187,235,15,92,0.251081,person
+data/football.mp4,480,288,0.240000,217,265,18,88,0.279499,person
+data/football.mp4,480,288,0.240000,445,479,30,129,0.311756,person
+data/football.mp4,480,288,0.240000,177,227,64,132,0.266144,person
+data/football.mp4,480,288,0.240000,363,410,42,150,0.609989,person
+data/football.mp4,480,288,0.240000,110,168,94,155,0.653874,person
+data/football.mp4,480,288,0.240000,208,280,67,182,0.531759,person
+data/football.mp4,480,288,0.240000,231,311,48,192,0.436970,person
+data/football.mp4,480,288,0.240000,293,340,67,171,0.345978,person
+data/football.mp4,480,288,0.240000,319,375,59,177,0.493487,person
+data/football.mp4,480,288,0.240000,284,419,73,262,0.260160,person
+data/football.mp4,480,288,0.240000,378,455,132,186,0.248816,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,215,268,18,86,0.268646,person
+data/football.mp4,480,288,0.240000,292,336,58,142,0.356025,person
+data/football.mp4,480,288,0.240000,329,375,52,153,0.468291,person
+data/football.mp4,480,288,0.240000,368,413,42,152,0.603235,person
+data/football.mp4,480,288,0.240000,127,191,89,157,0.501757,person
+data/football.mp4,480,288,0.240000,170,236,79,161,0.422479,person
+data/football.mp4,480,288,0.240000,211,278,69,177,0.673551,person
+data/football.mp4,480,288,0.240000,244,295,64,177,0.344922,person
+data/football.mp4,480,288,0.240000,291,348,97,189,0.345519,person
+data/football.mp4,480,288,0.240000,312,456,104,272,0.242790,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,214,257,8,67,0.261512,person
+data/football.mp4,480,288,0.240000,295,336,58,140,0.382290,person
+data/football.mp4,480,288,0.240000,333,374,53,152,0.509785,person
+data/football.mp4,480,288,0.240000,368,413,42,155,0.559569,person
+data/football.mp4,480,288,0.240000,387,437,37,157,0.246580,person
+data/football.mp4,480,288,0.240000,135,198,85,158,0.685378,person
+data/football.mp4,480,288,0.240000,167,233,76,160,0.594386,person
+data/football.mp4,480,288,0.240000,212,276,71,171,0.648655,person
+data/football.mp4,480,288,0.240000,246,301,89,191,0.402722,person
+data/football.mp4,480,288,0.240000,292,350,92,200,0.559448,person
+data/football.mp4,480,288,0.240000,309,470,135,282,0.354003,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,216,258,5,68,0.286202,person
+data/football.mp4,480,288,0.240000,295,337,58,140,0.280222,person
+data/football.mp4,480,288,0.240000,333,373,55,150,0.439033,person
+data/football.mp4,480,288,0.240000,366,414,45,157,0.514797,person
+data/football.mp4,480,288,0.240000,390,435,34,158,0.361356,person
+data/football.mp4,480,288,0.240000,160,232,75,160,0.702574,person
+data/football.mp4,480,288,0.240000,215,274,74,167,0.569936,person
+data/football.mp4,480,288,0.240000,242,306,93,187,0.417016,person
+data/football.mp4,480,288,0.240000,294,350,90,203,0.564096,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,224,264,1,70,0.288201,person
+data/football.mp4,480,288,0.240000,334,374,56,149,0.425365,person
+data/football.mp4,480,288,0.240000,366,415,49,157,0.414380,person
+data/football.mp4,480,288,0.240000,394,440,38,156,0.475933,person
+data/football.mp4,480,288,0.240000,158,233,73,160,0.709325,person
+data/football.mp4,480,288,0.240000,214,272,73,164,0.370881,person
+data/football.mp4,480,288,0.240000,237,304,66,173,0.553636,person
+data/football.mp4,480,288,0.240000,294,349,88,201,0.450689,person
+data/football.mp4,480,288,0.240000,362,476,139,276,0.243235,dog
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,334,377,56,148,0.399606,person
+data/football.mp4,480,288,0.240000,363,411,53,155,0.384700,person
+data/football.mp4,480,288,0.240000,398,445,45,158,0.481938,person
+data/football.mp4,480,288,0.240000,164,234,72,161,0.679499,person
+data/football.mp4,480,288,0.240000,243,309,69,168,0.541957,person
+data/football.mp4,480,288,0.240000,292,353,87,198,0.396934,person
+data/football.mp4,480,288,0.240000,370,477,143,277,0.353505,dog
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,250,297,4,68,0.307888,person
+data/football.mp4,480,288,0.240000,361,405,56,152,0.390746,person
+data/football.mp4,480,288,0.240000,403,452,48,161,0.500137,person
+data/football.mp4,480,288,0.240000,434,470,43,161,0.258010,person
+data/football.mp4,480,288,0.240000,170,235,72,159,0.571208,person
+data/football.mp4,480,288,0.240000,249,309,69,167,0.483952,person
+data/football.mp4,480,288,0.240000,327,383,66,170,0.336651,person
+data/football.mp4,480,288,0.240000,288,352,82,197,0.467424,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,256,304,5,65,0.302985,person
+data/football.mp4,480,288,0.240000,174,234,58,139,0.553168,person
+data/football.mp4,480,288,0.240000,359,403,56,152,0.458552,person
+data/football.mp4,480,288,0.240000,433,470,46,160,0.412227,person
+data/football.mp4,480,288,0.240000,257,309,69,167,0.494291,person
+data/football.mp4,480,288,0.240000,306,393,46,198,0.306794,person
+data/football.mp4,480,288,0.240000,403,454,59,168,0.375157,person
+data/football.mp4,480,288,0.240000,291,351,74,203,0.618795,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,284,329,6,66,0.334019,person
+data/football.mp4,480,288,0.240000,176,240,54,136,0.572846,person
+data/football.mp4,480,288,0.240000,360,408,54,151,0.534602,person
+data/football.mp4,480,288,0.240000,435,473,46,157,0.430038,person
+data/football.mp4,480,288,0.240000,258,310,74,162,0.318556,person
+data/football.mp4,480,288,0.240000,308,391,45,198,0.248190,person
+data/football.mp4,480,288,0.240000,292,349,74,202,0.633641,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,279,323,8,64,0.353027,person
+data/football.mp4,480,288,0.240000,179,239,51,134,0.437411,person
+data/football.mp4,480,288,0.240000,360,416,52,153,0.509440,person
+data/football.mp4,480,288,0.240000,437,475,44,157,0.522430,person
+data/football.mp4,480,288,0.240000,291,353,77,199,0.576738,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,280,323,8,62,0.384658,person
+data/football.mp4,480,288,0.240000,178,230,42,119,0.356313,person
+data/football.mp4,480,288,0.240000,0,27,60,142,0.447619,person
+data/football.mp4,480,288,0.240000,441,477,39,157,0.521596,person
+data/football.mp4,480,288,0.240000,276,359,53,198,0.668154,person
+data/football.mp4,480,288,0.240000,360,426,73,162,0.555466,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,286,328,9,60,0.278954,person
+data/football.mp4,480,288,0.240000,179,224,38,117,0.415535,person
+data/football.mp4,480,288,0.240000,3,33,58,151,0.621324,person
+data/football.mp4,480,288,0.240000,444,479,38,159,0.476871,person
+data/football.mp4,480,288,0.240000,218,253,111,140,0.287141,baseball glove
+data/football.mp4,480,288,0.240000,275,359,51,197,0.648327,person
+data/football.mp4,480,288,0.240000,357,433,72,162,0.502995,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,176,222,31,120,0.635762,person
+data/football.mp4,480,288,0.240000,10,45,58,150,0.456330,person
+data/football.mp4,480,288,0.240000,449,478,40,157,0.299702,person
+data/football.mp4,480,288,0.240000,226,263,108,139,0.447872,baseball glove
+data/football.mp4,480,288,0.240000,272,358,49,198,0.614244,person
+data/football.mp4,480,288,0.240000,359,435,68,167,0.494146,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,171,223,28,122,0.742297,person
+data/football.mp4,480,288,0.240000,25,63,57,151,0.450925,person
+data/football.mp4,480,288,0.240000,233,258,107,133,0.310246,baseball glove
+data/football.mp4,480,288,0.240000,253,285,109,138,0.252151,baseball glove
+data/football.mp4,480,288,0.240000,274,361,43,200,0.584874,person
+data/football.mp4,480,288,0.240000,316,379,63,174,0.249117,person
+data/football.mp4,480,288,0.240000,361,433,69,165,0.314723,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,168,227,27,120,0.746793,person
+data/football.mp4,480,288,0.240000,36,75,56,156,0.522770,person
+data/football.mp4,480,288,0.240000,259,293,107,139,0.430408,baseball glove
+data/football.mp4,480,288,0.240000,316,387,62,181,0.442053,person
+data/football.mp4,480,288,0.240000,385,458,70,161,0.348857,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,170,228,27,116,0.686942,person
+data/football.mp4,480,288,0.240000,37,88,66,145,0.268351,person
+data/football.mp4,480,288,0.240000,392,470,24,171,0.565637,person
+data/football.mp4,480,288,0.240000,436,476,37,158,0.260567,person
+data/football.mp4,480,288,0.240000,58,108,78,153,0.279712,person
+data/football.mp4,480,288,0.240000,272,297,110,136,0.319006,baseball glove
+data/football.mp4,480,288,0.240000,300,394,51,195,0.555781,person
+data/football.mp4,480,288,0.240000,290,353,96,187,0.250969,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,294,352,23,87,0.247516,person
+data/football.mp4,480,288,0.240000,172,221,29,113,0.583554,person
+data/football.mp4,480,288,0.240000,393,472,23,174,0.497516,person
+data/football.mp4,480,288,0.240000,433,477,36,157,0.241052,person
+data/football.mp4,480,288,0.240000,70,106,63,168,0.648336,person
+data/football.mp4,480,288,0.240000,300,396,54,195,0.558090,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,171,219,28,114,0.393386,person
+data/football.mp4,480,288,0.240000,82,123,68,170,0.491419,person
+data/football.mp4,480,288,0.240000,92,143,83,155,0.262748,person
+data/football.mp4,480,288,0.240000,393,467,73,168,0.484437,person
+data/football.mp4,480,288,0.240000,307,394,87,190,0.555814,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,164,216,17,103,0.306947,person
+data/football.mp4,480,288,0.240000,304,349,21,88,0.296060,person
+data/football.mp4,480,288,0.240000,99,142,75,169,0.538956,person
+data/football.mp4,480,288,0.240000,404,463,75,167,0.438766,person
+data/football.mp4,480,288,0.240000,309,393,88,193,0.523170,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,70,123,3,48,0.399879,person
+data/football.mp4,480,288,0.240000,168,222,10,108,0.383670,person
+data/football.mp4,480,288,0.240000,305,345,24,83,0.297321,person
+data/football.mp4,480,288,0.240000,112,155,80,173,0.549259,person
+data/football.mp4,480,288,0.240000,424,474,72,173,0.411700,person
+data/football.mp4,480,288,0.240000,300,353,95,195,0.538285,person
+data/football.mp4,480,288,0.240000,345,413,87,192,0.492607,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,70,130,3,49,0.365967,person
+data/football.mp4,480,288,0.240000,177,232,8,108,0.336224,person
+data/football.mp4,480,288,0.240000,304,347,29,85,0.365708,person
+data/football.mp4,480,288,0.240000,138,184,87,186,0.405189,person
+data/football.mp4,480,288,0.240000,301,351,94,202,0.671429,person
+data/football.mp4,480,288,0.240000,349,419,87,198,0.637219,person
+data/football.mp4,480,288,0.240000,428,473,89,189,0.520682,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,92,146,2,53,0.519535,person
+data/football.mp4,480,288,0.240000,206,257,6,61,0.337501,person
+data/football.mp4,480,288,0.240000,173,218,38,113,0.296645,person
+data/football.mp4,480,288,0.240000,311,363,37,111,0.320843,person
+data/football.mp4,480,288,0.240000,149,187,75,201,0.653173,person
+data/football.mp4,480,288,0.240000,303,349,99,198,0.513789,person
+data/football.mp4,480,288,0.240000,356,423,89,202,0.656888,person
+data/football.mp4,480,288,0.240000,399,456,91,193,0.335646,person
+data/football.mp4,480,288,0.240000,429,474,90,191,0.567829,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,97,150,1,56,0.648422,person
+data/football.mp4,480,288,0.240000,217,265,4,61,0.369087,person
+data/football.mp4,480,288,0.240000,311,362,39,114,0.486456,person
+data/football.mp4,480,288,0.240000,150,200,92,190,0.393643,person
+data/football.mp4,480,288,0.240000,366,422,94,201,0.593321,person
+data/football.mp4,480,288,0.240000,399,451,98,195,0.340196,person
+data/football.mp4,480,288,0.240000,436,475,92,193,0.523247,person
+data/football.mp4,480,288,0.240000,314,366,110,208,0.540573,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,107,152,2,60,0.567115,person
+data/football.mp4,480,288,0.240000,312,361,41,117,0.532907,person
+data/football.mp4,480,288,0.240000,153,205,56,133,0.251682,person
+data/football.mp4,480,288,0.240000,180,225,91,203,0.341396,person
+data/football.mp4,480,288,0.240000,371,420,100,191,0.398095,person
+data/football.mp4,480,288,0.240000,439,476,92,199,0.464177,person
+data/football.mp4,480,288,0.240000,315,370,113,215,0.655864,person
+data/football.mp4,480,288,0.240000,393,451,109,212,0.462982,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,113,156,1,63,0.450077,person
+data/football.mp4,480,288,0.240000,253,302,5,65,0.245407,person
+data/football.mp4,480,288,0.240000,313,361,44,119,0.506465,person
+data/football.mp4,480,288,0.240000,152,206,55,133,0.414613,person
+data/football.mp4,480,288,0.240000,446,478,93,199,0.390474,person
+data/football.mp4,480,288,0.240000,184,237,116,203,0.256875,person
+data/football.mp4,480,288,0.240000,213,253,111,212,0.421576,person
+data/football.mp4,480,288,0.240000,318,371,116,220,0.625237,person
+data/football.mp4,480,288,0.240000,390,460,107,218,0.666222,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,317,362,44,116,0.351144,person
+data/football.mp4,480,288,0.240000,150,208,51,136,0.449803,person
+data/football.mp4,480,288,0.240000,217,266,110,215,0.455144,person
+data/football.mp4,480,288,0.240000,240,297,121,206,0.240515,person
+data/football.mp4,480,288,0.240000,324,373,114,224,0.558802,person
+data/football.mp4,480,288,0.240000,393,465,109,227,0.745434,person
+data/football.mp4,480,288,0.240000,435,475,111,214,0.344611,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,316,367,39,116,0.309997,person
+data/football.mp4,480,288,0.240000,147,207,50,139,0.383142,person
+data/football.mp4,480,288,0.240000,247,298,113,217,0.490125,person
+data/football.mp4,480,288,0.240000,398,468,110,228,0.722109,person
+data/football.mp4,480,288,0.240000,432,475,118,214,0.289203,person
+data/football.mp4,480,288,0.240000,329,381,131,237,0.370484,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,135,198,12,92,0.286174,person
+data/football.mp4,480,288,0.240000,125,216,5,148,0.354621,person
+data/football.mp4,480,288,0.240000,314,373,35,115,0.268602,person
+data/football.mp4,480,288,0.240000,248,307,123,211,0.409014,person
+data/football.mp4,480,288,0.240000,402,468,111,228,0.649969,person
+data/football.mp4,480,288,0.240000,331,386,130,244,0.452757,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,139,188,7,66,0.377085,person
+data/football.mp4,480,288,0.240000,125,216,6,151,0.362848,person
+data/football.mp4,480,288,0.240000,302,398,7,147,0.486743,person
+data/football.mp4,480,288,0.240000,144,205,79,152,0.251996,person
+data/football.mp4,480,288,0.240000,423,475,120,219,0.421618,person
+data/football.mp4,480,288,0.240000,289,345,134,234,0.243454,person
+data/football.mp4,480,288,0.240000,326,384,124,252,0.567078,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,145,192,9,65,0.487624,person
+data/football.mp4,480,288,0.240000,320,386,9,106,0.500008,person
+data/football.mp4,480,288,0.240000,130,217,7,154,0.310017,person
+data/football.mp4,480,288,0.240000,145,204,72,159,0.489931,person
+data/football.mp4,480,288,0.240000,429,476,118,220,0.448227,person
+data/football.mp4,480,288,0.240000,326,386,125,251,0.466642,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,148,191,10,63,0.381572,person
+data/football.mp4,480,288,0.240000,322,381,33,119,0.355281,person
+data/football.mp4,480,288,0.240000,309,404,7,147,0.285684,person
+data/football.mp4,480,288,0.240000,139,203,71,161,0.601421,person
+data/football.mp4,480,288,0.240000,433,479,120,216,0.348010,person
+data/football.mp4,480,288,0.240000,323,390,135,240,0.329597,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,343,420,29,116,0.408409,person
+data/football.mp4,480,288,0.240000,316,374,51,141,0.444438,person
+data/football.mp4,480,288,0.240000,134,202,68,164,0.646346,person
+data/football.mp4,480,288,0.240000,440,479,122,212,0.286310,person
+data/football.mp4,480,288,0.240000,348,411,137,245,0.304675,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,156,181,16,50,0.252738,baseball glove
+data/football.mp4,480,288,0.240000,127,221,6,155,0.242974,person
+data/football.mp4,480,288,0.240000,343,433,28,116,0.590622,person
+data/football.mp4,480,288,0.240000,312,370,54,138,0.541409,person
+data/football.mp4,480,288,0.240000,131,195,64,166,0.650322,person
+data/football.mp4,480,288,0.240000,357,412,141,242,0.345625,person
+data/football.mp4,480,288,0.240000,403,458,141,238,0.351006,person
+data/football.mp4,480,288,0.240000,438,478,133,240,0.353741,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,159,185,17,51,0.305572,baseball glove
+data/football.mp4,480,288,0.240000,162,218,21,92,0.375336,person
+data/football.mp4,480,288,0.240000,351,437,32,113,0.469957,person
+data/football.mp4,480,288,0.240000,307,374,57,138,0.625561,person
+data/football.mp4,480,288,0.240000,127,188,62,168,0.659753,person
+data/football.mp4,480,288,0.240000,407,459,139,239,0.330261,person
+data/football.mp4,480,288,0.240000,439,476,135,241,0.400145,person
+data/football.mp4,480,288,0.240000,362,419,152,257,0.416643,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,159,184,19,48,0.283213,baseball glove
+data/football.mp4,480,288,0.240000,160,220,20,95,0.563979,person
+data/football.mp4,480,288,0.240000,373,450,31,114,0.396893,person
+data/football.mp4,480,288,0.240000,305,375,58,137,0.612300,person
+data/football.mp4,480,288,0.240000,122,189,62,168,0.691849,person
+data/football.mp4,480,288,0.240000,442,478,137,241,0.319438,person
+data/football.mp4,480,288,0.240000,370,420,146,262,0.511830,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,160,187,17,46,0.285419,baseball glove
+data/football.mp4,480,288,0.240000,159,225,18,95,0.622878,person
+data/football.mp4,480,288,0.240000,377,456,29,114,0.525679,person
+data/football.mp4,480,288,0.240000,306,374,57,138,0.562414,person
+data/football.mp4,480,288,0.240000,118,188,66,165,0.543218,person
+data/football.mp4,480,288,0.240000,373,426,148,265,0.477601,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,160,230,15,98,0.667583,person
+data/football.mp4,480,288,0.240000,382,465,23,119,0.541115,person
+data/football.mp4,480,288,0.240000,305,373,57,141,0.597771,person
+data/football.mp4,480,288,0.240000,111,174,70,170,0.676482,person
+data/football.mp4,480,288,0.240000,370,461,144,271,0.460420,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,163,231,12,99,0.642303,person
+data/football.mp4,480,288,0.240000,394,466,20,125,0.345291,person
+data/football.mp4,480,288,0.240000,304,376,54,143,0.641348,person
+data/football.mp4,480,288,0.240000,105,174,70,168,0.744285,person
+data/football.mp4,480,288,0.240000,369,466,143,272,0.645404,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,164,234,12,101,0.679182,person
+data/football.mp4,480,288,0.240000,394,467,22,123,0.332893,person
+data/football.mp4,480,288,0.240000,305,374,53,144,0.651307,person
+data/football.mp4,480,288,0.240000,101,169,69,169,0.734955,person
+data/football.mp4,480,288,0.240000,372,471,141,274,0.670995,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,163,233,9,99,0.622975,person
+data/football.mp4,480,288,0.240000,400,472,13,105,0.310045,person
+data/football.mp4,480,288,0.240000,308,369,56,138,0.440689,person
+data/football.mp4,480,288,0.240000,96,161,66,168,0.612683,person
+data/football.mp4,480,288,0.240000,381,472,139,282,0.689725,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,167,226,9,97,0.501641,person
+data/football.mp4,480,288,0.240000,417,478,13,107,0.414729,person
+data/football.mp4,480,288,0.240000,296,357,54,141,0.491427,person
+data/football.mp4,480,288,0.240000,89,155,67,169,0.623312,person
+data/football.mp4,480,288,0.240000,390,473,137,281,0.674307,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,166,223,10,100,0.502100,person
+data/football.mp4,480,288,0.240000,419,479,10,110,0.573537,person
+data/football.mp4,480,288,0.240000,292,356,56,140,0.561409,person
+data/football.mp4,480,288,0.240000,83,152,68,167,0.504105,person
+data/football.mp4,480,288,0.240000,395,472,136,279,0.574192,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,163,230,11,101,0.574283,person
+data/football.mp4,480,288,0.240000,424,479,9,113,0.706853,person
+data/football.mp4,480,288,0.240000,290,353,53,144,0.660180,person
+data/football.mp4,480,288,0.240000,73,139,71,179,0.571721,person
+data/football.mp4,480,288,0.240000,408,464,142,271,0.653414,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,163,233,9,105,0.683970,person
+data/football.mp4,480,288,0.240000,430,479,8,112,0.600346,person
+data/football.mp4,480,288,0.240000,287,350,53,147,0.578221,person
+data/football.mp4,480,288,0.240000,74,135,69,181,0.724128,person
+data/football.mp4,480,288,0.240000,413,462,149,269,0.436761,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,166,228,8,102,0.644086,person
+data/football.mp4,480,288,0.240000,439,479,6,109,0.456498,person
+data/football.mp4,480,288,0.240000,286,350,52,151,0.558390,person
+data/football.mp4,480,288,0.240000,71,134,73,179,0.690256,person
+data/football.mp4,480,288,0.240000,428,474,143,274,0.542363,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,163,227,7,107,0.670223,person
+data/football.mp4,480,288,0.240000,444,479,4,109,0.387785,person
+data/football.mp4,480,288,0.240000,286,348,50,150,0.571469,person
+data/football.mp4,480,288,0.240000,70,130,71,180,0.589390,person
+data/football.mp4,480,288,0.240000,433,479,141,275,0.524522,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,244,297,89,158,0.328360,person
+data/football.mp4,480,288,0.240000,26,81,113,178,0.279408,person
+data/football.mp4,480,288,0.240000,360,431,105,168,0.279403,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,71,114,21,82,0.276284,person
+data/football.mp4,480,288,0.240000,195,234,47,120,0.489573,person
+data/football.mp4,480,288,0.240000,107,145,70,131,0.322717,person
+data/football.mp4,480,288,0.240000,137,181,71,128,0.292146,person
+data/football.mp4,480,288,0.240000,251,288,89,161,0.727600,person
+data/football.mp4,480,288,0.240000,32,79,112,180,0.661405,person
+data/football.mp4,480,288,0.240000,130,196,95,189,0.554064,person
+data/football.mp4,480,288,0.240000,365,423,102,166,0.561105,person
+data/football.mp4,480,288,0.240000,68,115,127,191,0.397780,person
+data/football.mp4,480,288,0.240000,100,166,124,200,0.438142,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,107,148,70,130,0.305866,person
+data/football.mp4,480,288,0.240000,189,238,56,132,0.475618,person
+data/football.mp4,480,288,0.240000,213,268,87,158,0.275720,person
+data/football.mp4,480,288,0.240000,253,289,92,160,0.747292,person
+data/football.mp4,480,288,0.240000,356,403,103,159,0.556130,person
+data/football.mp4,480,288,0.240000,38,86,112,180,0.682179,person
+data/football.mp4,480,288,0.240000,62,109,111,180,0.463397,person
+data/football.mp4,480,288,0.240000,130,191,97,189,0.568387,person
+data/football.mp4,480,288,0.240000,97,171,126,199,0.475475,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,29,88,19,77,0.256445,person
+data/football.mp4,480,288,0.240000,84,121,65,132,0.274581,person
+data/football.mp4,480,288,0.240000,183,240,55,135,0.535495,person
+data/football.mp4,480,288,0.240000,212,264,88,162,0.309718,person
+data/football.mp4,480,288,0.240000,254,296,95,161,0.747117,person
+data/football.mp4,480,288,0.240000,350,398,101,160,0.439673,person
+data/football.mp4,480,288,0.240000,43,88,113,179,0.650384,person
+data/football.mp4,480,288,0.240000,133,186,102,187,0.487193,person
+data/football.mp4,480,288,0.240000,98,172,123,202,0.449122,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,80,120,65,134,0.338109,person
+data/football.mp4,480,288,0.240000,178,243,53,143,0.638510,person
+data/football.mp4,480,288,0.240000,207,257,86,161,0.311405,person
+data/football.mp4,480,288,0.240000,256,303,96,160,0.749506,person
+data/football.mp4,480,288,0.240000,327,382,101,161,0.613232,person
+data/football.mp4,480,288,0.240000,46,85,111,177,0.610439,person
+data/football.mp4,480,288,0.240000,63,111,103,178,0.281435,person
+data/football.mp4,480,288,0.240000,103,164,99,185,0.447914,person
+data/football.mp4,480,288,0.240000,129,180,125,200,0.447660,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,173,243,53,147,0.742446,person
+data/football.mp4,480,288,0.240000,73,115,78,163,0.408224,person
+data/football.mp4,480,288,0.240000,259,310,95,159,0.533666,person
+data/football.mp4,480,288,0.240000,282,333,95,160,0.349847,person
+data/football.mp4,480,288,0.240000,315,370,98,163,0.422936,person
+data/football.mp4,480,288,0.240000,44,82,106,178,0.547843,person
+data/football.mp4,480,288,0.240000,102,164,98,186,0.463611,person
+data/football.mp4,480,288,0.240000,128,179,129,202,0.391215,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,244,297,89,158,0.328360,person
+data/football.mp4,480,288,0.240000,26,81,113,178,0.279408,person
+data/football.mp4,480,288,0.240000,360,431,105,168,0.279403,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,71,114,21,82,0.276284,person
+data/football.mp4,480,288,0.240000,195,234,47,120,0.489573,person
+data/football.mp4,480,288,0.240000,107,145,70,131,0.322717,person
+data/football.mp4,480,288,0.240000,137,181,71,128,0.292146,person
+data/football.mp4,480,288,0.240000,251,288,89,161,0.727600,person
+data/football.mp4,480,288,0.240000,32,79,112,180,0.661405,person
+data/football.mp4,480,288,0.240000,130,196,95,189,0.554064,person
+data/football.mp4,480,288,0.240000,365,423,102,166,0.561105,person
+data/football.mp4,480,288,0.240000,68,115,127,191,0.397780,person
+data/football.mp4,480,288,0.240000,100,166,124,200,0.438142,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,107,148,70,130,0.305866,person
+data/football.mp4,480,288,0.240000,189,238,56,132,0.475618,person
+data/football.mp4,480,288,0.240000,213,268,87,158,0.275720,person
+data/football.mp4,480,288,0.240000,253,289,92,160,0.747292,person
+data/football.mp4,480,288,0.240000,356,403,103,159,0.556130,person
+data/football.mp4,480,288,0.240000,38,86,112,180,0.682179,person
+data/football.mp4,480,288,0.240000,62,109,111,180,0.463397,person
+data/football.mp4,480,288,0.240000,130,191,97,189,0.568387,person
+data/football.mp4,480,288,0.240000,97,171,126,199,0.475475,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,29,88,19,77,0.256445,person
+data/football.mp4,480,288,0.240000,84,121,65,132,0.274581,person
+data/football.mp4,480,288,0.240000,183,240,55,135,0.535495,person
+data/football.mp4,480,288,0.240000,212,264,88,162,0.309718,person
+data/football.mp4,480,288,0.240000,254,296,95,161,0.747117,person
+data/football.mp4,480,288,0.240000,350,398,101,160,0.439673,person
+data/football.mp4,480,288,0.240000,43,88,113,179,0.650384,person
+data/football.mp4,480,288,0.240000,133,186,102,187,0.487193,person
+data/football.mp4,480,288,0.240000,98,172,123,202,0.449122,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,80,120,65,134,0.338109,person
+data/football.mp4,480,288,0.240000,178,243,53,143,0.638510,person
+data/football.mp4,480,288,0.240000,207,257,86,161,0.311405,person
+data/football.mp4,480,288,0.240000,256,303,96,160,0.749506,person
+data/football.mp4,480,288,0.240000,327,382,101,161,0.613232,person
+data/football.mp4,480,288,0.240000,46,85,111,177,0.610439,person
+data/football.mp4,480,288,0.240000,63,111,103,178,0.281435,person
+data/football.mp4,480,288,0.240000,103,164,99,185,0.447914,person
+data/football.mp4,480,288,0.240000,129,180,125,200,0.447660,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,173,243,53,147,0.742446,person
+data/football.mp4,480,288,0.240000,73,115,78,163,0.408224,person
+data/football.mp4,480,288,0.240000,259,310,95,159,0.533666,person
+data/football.mp4,480,288,0.240000,282,333,95,160,0.349847,person
+data/football.mp4,480,288,0.240000,315,370,98,163,0.422936,person
+data/football.mp4,480,288,0.240000,44,82,106,178,0.547843,person
+data/football.mp4,480,288,0.240000,102,164,98,186,0.463611,person
+data/football.mp4,480,288,0.240000,128,179,129,202,0.391215,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,172,238,54,147,0.756833,person
+data/football.mp4,480,288,0.240000,72,116,78,163,0.387090,person
+data/football.mp4,480,288,0.240000,284,330,92,160,0.582334,person
+data/football.mp4,480,288,0.240000,39,81,101,178,0.510927,person
+data/football.mp4,480,288,0.240000,101,160,98,185,0.502576,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,210,244,48,114,0.348251,person
+data/football.mp4,480,288,0.240000,168,228,56,139,0.615051,person
+data/football.mp4,480,288,0.240000,38,83,79,168,0.446133,person
+data/football.mp4,480,288,0.240000,74,115,82,157,0.337355,person
+data/football.mp4,480,288,0.240000,263,312,94,160,0.246603,person
+data/football.mp4,480,288,0.240000,286,327,90,158,0.642717,person
+data/football.mp4,480,288,0.240000,99,165,123,201,0.481102,person
+data/football.mp4,480,288,0.240000,24,81,161,212,0.266089,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,74,102,62,100,0.294601,person
+data/football.mp4,480,288,0.240000,211,245,49,117,0.560527,person
+data/football.mp4,480,288,0.240000,167,220,55,134,0.474791,person
+data/football.mp4,480,288,0.240000,222,244,85,111,0.249145,person
+data/football.mp4,480,288,0.240000,34,81,79,165,0.483296,person
+data/football.mp4,480,288,0.240000,75,116,86,152,0.321545,person
+data/football.mp4,480,288,0.240000,100,145,92,151,0.292689,person
+data/football.mp4,480,288,0.240000,152,194,86,149,0.285399,person
+data/football.mp4,480,288,0.240000,259,305,94,163,0.385754,person
+data/football.mp4,480,288,0.240000,289,329,90,158,0.605274,person
+data/football.mp4,480,288,0.240000,95,165,124,202,0.517279,person
+data/football.mp4,480,288,0.240000,9,54,158,214,0.278070,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,70,98,61,101,0.304030,person
+data/football.mp4,480,288,0.240000,170,212,42,124,0.386913,person
+data/football.mp4,480,288,0.240000,212,252,51,114,0.463124,person
+data/football.mp4,480,288,0.240000,154,198,63,137,0.457579,person
+data/football.mp4,480,288,0.240000,31,80,79,162,0.533454,person
+data/football.mp4,480,288,0.240000,74,116,86,151,0.360070,person
+data/football.mp4,480,288,0.240000,103,148,90,150,0.286688,person
+data/football.mp4,480,288,0.240000,146,186,86,148,0.369892,person
+data/football.mp4,480,288,0.240000,296,339,90,158,0.445013,person
+data/football.mp4,480,288,0.240000,251,292,99,171,0.541055,person
+data/football.mp4,480,288,0.240000,93,168,123,205,0.531536,person
+data/football.mp4,480,288,0.240000,7,53,159,214,0.437622,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,68,94,60,100,0.250793,person
+data/football.mp4,480,288,0.240000,170,210,40,124,0.464924,person
+data/football.mp4,480,288,0.240000,147,193,62,135,0.349779,person
+data/football.mp4,480,288,0.240000,212,265,57,138,0.557171,person
+data/football.mp4,480,288,0.240000,31,80,77,162,0.552234,person
+data/football.mp4,480,288,0.240000,73,116,82,153,0.401286,person
+data/football.mp4,480,288,0.240000,108,156,85,155,0.278230,person
+data/football.mp4,480,288,0.240000,244,287,90,165,0.365208,person
+data/football.mp4,480,288,0.240000,295,345,89,158,0.283161,person
+data/football.mp4,480,288,0.240000,322,357,83,158,0.446398,person
+data/football.mp4,480,288,0.240000,97,165,97,193,0.435261,person
+data/football.mp4,480,288,0.240000,4,48,156,218,0.517411,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,172,216,43,118,0.566293,person
+data/football.mp4,480,288,0.240000,32,82,79,161,0.496486,person
+data/football.mp4,480,288,0.240000,69,113,81,155,0.378011,person
+data/football.mp4,480,288,0.240000,226,269,80,157,0.629343,person
+data/football.mp4,480,288,0.240000,335,371,81,155,0.590816,person
+data/football.mp4,480,288,0.240000,98,168,92,199,0.581946,person
+data/football.mp4,480,288,0.240000,2,43,155,224,0.473153,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,39,65,60,91,0.278582,person
+data/football.mp4,480,288,0.240000,180,227,45,119,0.683969,person
+data/football.mp4,480,288,0.240000,240,294,51,111,0.341527,person
+data/football.mp4,480,288,0.240000,113,158,75,128,0.291867,person
+data/football.mp4,480,288,0.240000,4,43,84,151,0.256831,person
+data/football.mp4,480,288,0.240000,31,84,80,157,0.505031,person
+data/football.mp4,480,288,0.240000,66,113,81,154,0.391377,person
+data/football.mp4,480,288,0.240000,222,268,82,156,0.709882,person
+data/football.mp4,480,288,0.240000,339,381,79,156,0.374337,person
+data/football.mp4,480,288,0.240000,102,170,93,199,0.573233,person
+data/football.mp4,480,288,0.240000,1,39,153,230,0.343113,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,42,71,59,91,0.356819,person
+data/football.mp4,480,288,0.240000,75,101,58,95,0.273438,person
+data/football.mp4,480,288,0.240000,186,234,49,116,0.520645,person
+data/football.mp4,480,288,0.240000,240,295,50,114,0.575859,person
+data/football.mp4,480,288,0.240000,109,156,73,127,0.341584,person
+data/football.mp4,480,288,0.240000,27,85,82,152,0.478276,person
+data/football.mp4,480,288,0.240000,63,114,82,152,0.401769,person
+data/football.mp4,480,288,0.240000,215,265,84,155,0.737840,person
+data/football.mp4,480,288,0.240000,365,406,74,153,0.505947,person
+data/football.mp4,480,288,0.240000,102,170,96,197,0.535466,person
+data/football.mp4,480,288,0.240000,1,40,167,245,0.459780,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,45,74,58,92,0.360415,person
+data/football.mp4,480,288,0.240000,78,104,57,94,0.260829,person
+data/football.mp4,480,288,0.240000,184,234,50,114,0.293842,person
+data/football.mp4,480,288,0.240000,240,306,50,117,0.665097,person
+data/football.mp4,480,288,0.240000,107,157,72,129,0.355897,person
+data/football.mp4,480,288,0.240000,26,82,80,149,0.561911,person
+data/football.mp4,480,288,0.240000,68,117,80,154,0.508956,person
+data/football.mp4,480,288,0.240000,209,260,86,154,0.721492,person
+data/football.mp4,480,288,0.240000,368,422,77,152,0.373071,person
+data/football.mp4,480,288,0.240000,393,442,73,156,0.476562,person
+data/football.mp4,480,288,0.240000,107,167,97,192,0.446425,person
+data/football.mp4,480,288,0.240000,128,183,124,206,0.457167,person
+data/football.mp4,480,288,0.240000,3,45,169,249,0.560724,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,28,79,66,140,0.591136,person
+data/football.mp4,480,288,0.240000,227,319,56,129,0.561376,person
+data/football.mp4,480,288,0.240000,75,120,77,156,0.558933,person
+data/football.mp4,480,288,0.240000,100,159,82,157,0.401170,person
+data/football.mp4,480,288,0.240000,206,259,85,152,0.580658,person
+data/football.mp4,480,288,0.240000,397,453,75,153,0.494554,person
+data/football.mp4,480,288,0.240000,434,474,74,160,0.255711,person
+data/football.mp4,480,288,0.240000,108,166,124,203,0.310604,person
+data/football.mp4,480,288,0.240000,131,193,123,207,0.583408,person
+data/football.mp4,480,288,0.240000,5,51,170,248,0.534058,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,244,297,89,158,0.328360,person
+data/football.mp4,480,288,0.240000,26,81,113,178,0.279408,person
+data/football.mp4,480,288,0.240000,360,431,105,168,0.279403,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,71,114,21,82,0.276284,person
+data/football.mp4,480,288,0.240000,195,234,47,120,0.489573,person
+data/football.mp4,480,288,0.240000,107,145,70,131,0.322717,person
+data/football.mp4,480,288,0.240000,137,181,71,128,0.292146,person
+data/football.mp4,480,288,0.240000,251,288,89,161,0.727600,person
+data/football.mp4,480,288,0.240000,32,79,112,180,0.661405,person
+data/football.mp4,480,288,0.240000,130,196,95,189,0.554064,person
+data/football.mp4,480,288,0.240000,365,423,102,166,0.561105,person
+data/football.mp4,480,288,0.240000,68,115,127,191,0.397780,person
+data/football.mp4,480,288,0.240000,100,166,124,200,0.438142,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,107,148,70,130,0.305866,person
+data/football.mp4,480,288,0.240000,189,238,56,132,0.475618,person
+data/football.mp4,480,288,0.240000,213,268,87,158,0.275720,person
+data/football.mp4,480,288,0.240000,253,289,92,160,0.747292,person
+data/football.mp4,480,288,0.240000,356,403,103,159,0.556130,person
+data/football.mp4,480,288,0.240000,38,86,112,180,0.682179,person
+data/football.mp4,480,288,0.240000,62,109,111,180,0.463397,person
+data/football.mp4,480,288,0.240000,130,191,97,189,0.568387,person
+data/football.mp4,480,288,0.240000,97,171,126,199,0.475475,person
+ , , , , , , , , , 
+image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name
+data/football.mp4,480,288,0.240000,29,88,19,77,0.256445,person
+data/football.mp4,480,288,0.240000,84,121,65,132,0.274581,person
+data/football.mp4,480,288,0.240000,183,240,55,135,0.535495,person
+data/football.mp4,480,288,0.240000,212,264,88,162,0.309718,person
+data/football.mp4,480,288,0.240000,254,296,95,161,0.747117,person
+data/football.mp4,480,288,0.240000,350,398,101,160,0.439673,person
+data/football.mp4,480,288,0.240000,43,88,113,179,0.650384,person
+data/football.mp4,480,288,0.240000,133,186,102,187,0.487193,person
+data/football.mp4,480,288,0.240000,98,172,123,202,0.449122,person
+ , , , , , , , , , 
