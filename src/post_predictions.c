@@ -1,25 +1,55 @@
 #include "post_predictions.h"
 
-void save_detections(char *image_id, int num, int width, int height, float thresh,
-                     box *boxes, float **probs, char **names, int classes)
+void save_detections_counts(char *image_id, int num, int width, int height, float thresh,
+                            box *boxes, float **probs, char **names, int classes,int* counts)
 {
     FILE *fp;
-    char *csv_filename;
+    //    FILE *fpc;
+    /*static int *p = NULL;
+    if(!p) p = (int *)malloc(sizeof(int));*/
+    char *pred_filename=NULL;
+    //    char *count_filename=NULL;
+    int j;
+    int i;
+    printf("classes=%d\n",classes);
+    printf("intializing counts=0 ... ");
+    for (j=0;j<classes;++j){
+        counts[j]=0;
+    }
+    printf("Done\n");
 
-    csv_filename = malloc(strlen("predictions_") +strlen(basename(image_id))+ strlen(".csv"));
-    strcpy(csv_filename, "predictions_");
-    strcat(csv_filename, basename(image_id));
-    strcat(csv_filename, ".csv");
-
-    if ((fp = fopen(csv_filename, "a")) == NULL) {
-        printf("File open error: %s\n", csv_filename);
+    pred_filename = calloc(strlen("pred_") +strlen(basename(image_id))+ strlen("_.csv"),sizeof(char));
+    strcpy(pred_filename, "pred_");
+    strcat(pred_filename, basename(image_id));
+    strcat(pred_filename, "_.csv");
+    printf("malloc fp open...");
+    if ((fp = fopen(pred_filename, "a")) == NULL) {
+        printf("File open error: %s\n", pred_filename);
         exit(1);
     }
-    fprintf(fp, "image_id,img_width,img_height,thresh,box_left,box_right,box_top,box_bottom,class_prob,class_name\n");
+    printf("Done\n");
+    //    printf("malloc fpc open...");
+    //    count_filename = calloc(strlen("counts_") +strlen(basename(image_id))+ strlen("_.csv"),sizeof(char));
+    //    printf("cpy\n");
+    //    strcpy(count_filename, "counts_");
+    //    printf("cat\n");
+    //    strcat(count_filename, basename(image_id));
+    //    printf("cat\n");
+    //    strcat(count_filename, "_.csv");
+    //    printf("done\n");
+    //    if ((fpc = fopen(count_filename, "a")) == NULL) {
+    //        printf("File open error: %s\n", count_filename);
+    //        exit(1);
+    //    }
+    //    printf("Done\n");
 
-    int i;
-    printf("num=%d\n",num);
-    printf("classes=%d\n",classes);
+    fprintf(fp, "image_id,img_width,img_height,thresh,box_left,box_right,\
+            box_top,box_bottom,class_prob,class_name,class_id\n");
+
+
+            printf("num=%d\n",num);
+            printf("classes=%d\n",classes);
+
     for (i = 0; i < num; ++i) {
         int class = max_index(probs[i], classes);
         float prob = probs[i][class];
@@ -39,10 +69,28 @@ void save_detections(char *image_id, int num, int width, int height, float thres
         if (right > width - 1) right = width - 1;
         if (top < 0) top = 0;
         if (bot > height - 1) bot = height - 1;
-
-        fprintf(fp, "%s,%d,%d,%f,%d,%d,%d,%d,%f,%s\n",
-                image_id, width, height, thresh, left, right, top, bot, prob, names[class]);
+        counts[class]+=1;
+        fprintf(fp, "%s,%d,%d,%f,%d,%d,%d,%d,%f,%s,%d\n",
+                image_id, width, height, thresh, left, right, top, bot, prob, names[class],class);
     }
-    fprintf(fp, " , , , , , , , , , \n");
+    fprintf(fp, " , , , , , , , , , , \n");
+    fprintf(fp, "image_id,class,count\n");
+    for (j=0;j<classes;++j){
+        fprintf(fp, " %s,%s,%d\n",image_id,names[j],counts[j]);
+    }
+    fprintf(fp, " , , \n");
+    fprintf(fp, " , , , , , , , , , , ,############################################\n");
     fclose(fp);
+    //    fclose(fpc);
+    if(!pred_filename)
+        free(pred_filename);
+    //    if(!count_filename)
+    //        free(count_filename);
+    printf("successfully returned from save_detections_counts\n");
+
 }
+
+
+/*References
+    https://github.com/pjreddie/darknet/pull/27
+*/

@@ -36,7 +36,7 @@
 #include "utils.h"
 
 
-void save_detections(char *image_id, int num, int width, int height, float thresh,
-                     box *boxes, float **probs, char **names, int classes);
+void save_detections_counts(char *image_id, int num, int width, int height, float thresh,
+                     box *boxes, float **probs, char **names, int classes,int* counts);
 
 #endif // PREDICTIONS_H

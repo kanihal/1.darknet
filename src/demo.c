@@ -24,6 +24,8 @@ static int demo_classes;
 
 static float **probs;
 static box *boxes;
+static int *counts;
+
 static network net;
 static image in   ;
 static image in_s ;
@@ -43,6 +45,7 @@ static image images[FRAMES];
 static float *avg;
 
 char* file;
+char* out_vid_file;
 
 static int w, h, depth, c, step= 0;
 
@@ -104,7 +107,8 @@ void *detect_in_thread(void *ptr)
     demo_index = (demo_index + 1)%FRAMES;
 
     draw_detections(det, l.w*l.h*l.n, demo_thresh, boxes, probs, demo_names, demo_alphabet, demo_classes);
-    save_detections(file, l.w*l.h*l.n, in.w, in.h, demo_thresh, boxes, probs, demo_names, demo_classes);
+    printf("counts classes=%d",demo_classes);
+    save_detections_counts(file, l.w*l.h*l.n, in.w, in.h, demo_thresh, boxes, probs, demo_names, demo_classes,counts);
 
     //jaggi
     IplImage* outputIpl= image_to_Ipl(det, w, h, depth, c, step);
@@ -114,8 +118,40 @@ void *detect_in_thread(void *ptr)
      cvShowImage("image", outputIpl);
      cvWaitKey(1);
     */
+    int person_count;
+    int chair_count;
+    int j,k;
+    person_count=0;
+    printf("finding person count...");
+    for(j=0;j<demo_classes;j++){
+        if(strcmp(demo_names[j],"person")==0){
+            person_count=counts[j];
+            break;
+        }
+    }
+    for(k=0;k<demo_classes;k++){
+        if(strcmp(demo_names[k],"chair")==0){
+            chair_count=counts[k];
+            break;
+        }
+    }
+    printf("Done");
+    char buffer[30];
 
+    CvFont font;
+    cvInitFont(&font, CV_FONT_HERSHEY_SIMPLEX,0.5,0.5,0,2,8);
+    printf("writing label to image\n");
+
+    sprintf(buffer, "       -> %s  : %d",demo_names[k],chair_count);
+    cvPutText(outputIpl, buffer,cvPoint(20, 40), &font, CV_RGB(150,250,50));
+
+    sprintf(buffer, "counts -> %s : %d",demo_names[j],person_count);
+    cvPutText(outputIpl, buffer,cvPoint(20, 20), &font, CV_RGB(150,250,50));
+
+    printf("written label\n");
     cvWriteFrame(writer,outputIpl);
+
+    cvShowImage("Demo", outputIpl);
     cvReleaseImage(&outputIpl);
     return 0;
 }
@@ -149,14 +185,19 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
     srand(2222222);
 
     if(filename){
-        printf("video file: %s\n", filename);
+        printf("video file: %s\n", filename);//file name can be rtsp stream , from the command line
         cap = cvCaptureFromFile(filename);
         if(!cap)
             error("Couldn't read video file.\n");
         file=filename;
         //writer=cvCreateVideoWriter("predicitons.mp4",-1,30,cvSize(600,600),1);
+        out_vid_file = malloc(strlen("pred_") +strlen(basename(filename))+ strlen("_.avi"));
+        strcpy(out_vid_file, "pred_");
+        strcat(out_vid_file, basename(filename));
+        strcat(out_vid_file, "_.avi");
+
         CvSize size = cvSize((int)cvGetCaptureProperty(cap,CV_CAP_PROP_FRAME_WIDTH), (int)cvGetCaptureProperty(cap,CV_CAP_PROP_FRAME_HEIGHT));
-        writer = cvCreateVideoWriter("out.avi", CV_FOURCC('D','I','V','X'), cvGetCaptureProperty(cap,CV_CAP_PROP_FPS),size, 1);
+        writer = cvCreateVideoWriter(out_vid_file, CV_FOURCC('D','I','V','X'), cvGetCaptureProperty(cap,CV_CAP_PROP_FPS),size, 1);
         if(!writer)
             error("Couldn't open writer.\n");
     }else{
@@ -175,6 +216,10 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
     for(j = 0; j < FRAMES; ++j) images[j] = make_image(1,1,3);
 
     boxes = (box *)calloc(l.w*l.h*l.n, sizeof(box));
+    counts = (int *) calloc(demo_classes,sizeof(int));
+    if (!counts)
+        printf("counts malloc %d\n",demo_classes);
+
     probs = (float **)calloc(l.w*l.h*l.n, sizeof(float *));
     for(j = 0; j < l.w*l.h*l.n; ++j) probs[j] = (float *)calloc(l.classes, sizeof(float));
 
@@ -203,7 +248,7 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
     if(!prefix){
         cvNamedWindow("Demo", CV_WINDOW_NORMAL);
         cvMoveWindow("Demo", 0, 0);
-        cvResizeWindow("Demo", 1352, 1013);
+        //        cvResizeWindow("Demo", 1352, 1013);
     }
 
     double before = get_wall_time();
@@ -216,14 +261,16 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
 
             if(!prefix){
                 //                printf("wii");//hitting this
-                printf("trying to write to video\n");
-                IplImage *img = cvCreateImage(cvSize(disp.w,disp.h), IPL_DEPTH_8U, disp.c);
-                IplImage *buffer = img;
-                img = cvCreateImage(cvSize(600, 600), buffer->depth, buffer->nChannels);
-                cvResize(buffer, img, CV_INTER_LINEAR);
-                cvWriteFrame(writer,img);
-                printf("written to video\n");
-                show_image(disp, "Demo");
+                //                printf("trying to write to video\n");
+                //                IplImage *img = cvCreateImage(cvSize(disp.w,disp.h), IPL_DEPTH_8U, disp.c);
+                //                IplImage *buffer = img;
+                //                img = cvCreateImage(cvSize(600, 600), buffer->depth, buffer->nChannels);
+                //                cvResize(buffer, img, CV_INTER_LINEAR);
+                //                cvWriteFrame(writer,img);
+                //                printf("written to video\n");
+
+
+                //                show_image(disp, "Demo");
                 int c = cvWaitKey(1);
                 if (c == 10){
                     if(frame_skip == 0) frame_skip = 60;
@@ -279,4 +326,9 @@ void demo(char *cfgfile, char *weightfile, float thresh, int cam_index, const ch
 //    fprintf(stderr, "Demo needs OpenCV for webcam images.\n");
 //}
 //#endif
+
+
+/* References
+    videowriter reference - https://github.com/Guanghan/darknet/blob/master/src/yolo_kernels.cu
+*/
 
