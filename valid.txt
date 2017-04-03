@@ -1,0 +1,9 @@
+/home/jkl/MLRD/classroom-annotated/images/10_109.jpg
+/home/jkl/MLRD/classroom-annotated/images/10_119.jpg
+/home/jkl/MLRD/classroom-annotated/images/10_129.jpg
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg
+/home/jkl/MLRD/classroom-annotated/images/10_149.jpg
+/home/jkl/MLRD/classroom-annotated/images/10_159.jpg
+/home/jkl/MLRD/classroom-annotated/images/10_169.jpg
+/home/jkl/MLRD/classroom-annotated/images/10_179.jpg
+/home/jkl/MLRD/classroom-annotated/images/10_189.jpg

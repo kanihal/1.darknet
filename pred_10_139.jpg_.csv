@@ -1,0 +1,198 @@
+image_id,img_width,img_height,thresh,box_left,box_right,            box_top,box_bottom,class_prob,class_name,class_id
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,39,102,78,156,0.359080,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,147,211,70,154,0.255287,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,208,269,76,158,0.426342,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,367,438,71,156,0.507899,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,631,709,91,200,0.584537,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,151,224,122,216,0.363947,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,425,508,114,226,0.353217,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,660,710,185,223,0.288819,laptop,63
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,347,472,175,285,0.424325,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,637,719,251,345,0.324825,chair,56
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,0,76,257,384,0.311914,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,101,291,237,399,0.374462,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,286,455,240,400,0.355794,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,442,504,273,388,0.334189,chair,56
+ , , , , , , , , , , 
+image_id,class,count
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,person,11
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bicycle,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,car,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,motorbike,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,aeroplane,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bus,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,train,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,truck,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,boat,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,traffic light,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,fire hydrant,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,stop sign,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,parking meter,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bench,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bird,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,cat,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,dog,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,horse,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,sheep,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,cow,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,elephant,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bear,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,zebra,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,giraffe,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,backpack,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,umbrella,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,handbag,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,tie,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,suitcase,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,frisbee,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,skis,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,snowboard,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,sports ball,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,kite,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,baseball bat,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,baseball glove,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,skateboard,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,surfboard,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,tennis racket,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bottle,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,wine glass,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,cup,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,fork,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,knife,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,spoon,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bowl,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,banana,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,apple,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,sandwich,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,orange,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,broccoli,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,carrot,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,hot dog,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,pizza,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,donut,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,cake,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,chair,2
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,sofa,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,pottedplant,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bed,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,diningtable,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,toilet,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,tvmonitor,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,laptop,1
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,mouse,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,remote,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,keyboard,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,cell phone,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,microwave,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,oven,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,toaster,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,sink,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,refrigerator,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,book,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,clock,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,vase,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,scissors,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,teddy bear,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,hair drier,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,toothbrush,0
+ , , 
+ , , , , , , , , , , ,############################################
+image_id,img_width,img_height,thresh,box_left,box_right,            box_top,box_bottom,class_prob,class_name,class_id
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,39,102,78,156,0.359080,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,147,211,70,154,0.255287,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,208,269,76,158,0.426342,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,367,438,71,156,0.507899,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,631,709,91,200,0.584537,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,151,224,122,216,0.363947,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,425,508,114,226,0.353217,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,660,710,185,223,0.288819,laptop,63
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,347,472,175,285,0.424325,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,637,719,251,345,0.324825,chair,56
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,0,76,257,384,0.311914,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,101,291,237,399,0.374462,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,286,455,240,400,0.355794,person,0
+/home/jkl/MLRD/classroom-annotated/images/10_139.jpg,720,405,0.240000,442,504,273,388,0.334189,chair,56
+ , , , , , , , , , , 
+image_id,class,count
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,person,11
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bicycle,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,car,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,motorbike,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,aeroplane,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bus,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,train,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,truck,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,boat,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,traffic light,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,fire hydrant,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,stop sign,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,parking meter,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bench,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bird,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,cat,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,dog,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,horse,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,sheep,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,cow,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,elephant,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bear,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,zebra,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,giraffe,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,backpack,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,umbrella,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,handbag,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,tie,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,suitcase,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,frisbee,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,skis,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,snowboard,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,sports ball,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,kite,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,baseball bat,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,baseball glove,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,skateboard,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,surfboard,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,tennis racket,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bottle,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,wine glass,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,cup,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,fork,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,knife,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,spoon,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bowl,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,banana,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,apple,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,sandwich,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,orange,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,broccoli,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,carrot,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,hot dog,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,pizza,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,donut,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,cake,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,chair,2
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,sofa,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,pottedplant,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,bed,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,diningtable,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,toilet,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,tvmonitor,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,laptop,1
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,mouse,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,remote,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,keyboard,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,cell phone,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,microwave,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,oven,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,toaster,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,sink,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,refrigerator,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,book,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,clock,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,vase,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,scissors,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,teddy bear,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,hair drier,0
+ /home/jkl/MLRD/classroom-annotated/images/10_139.jpg,toothbrush,0
+ , , 
+ , , , , , , , , , , ,############################################
