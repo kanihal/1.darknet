@@ -1,6 +1,6 @@
 cat $1 |\
 while read f; do
-	echo "Processing - $f"
+	echo "Processing counts for  - $f"
 	f="${f##*/}"
 	base="${f%.*}"
 	# echo $base
