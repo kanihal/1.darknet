@@ -22,4 +22,7 @@ do
 	cp "./original/$l" "./labels/$l.txt"
 done
 # awk -f ../convert_wh_labels.awk -v pre="$f_" "$f.txt" 
+for f in `ls images/`; do	
+		readlink -f "images/$f" >> train.txt
+done
 echo "Done"
