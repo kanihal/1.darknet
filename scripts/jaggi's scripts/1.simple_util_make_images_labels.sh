@@ -1,5 +1,6 @@
 if [[ -z $1 || -z $2 ]]; then
 	echo "usage : 1.simple_util_make_images_labels.sh <folder where images can be found> <vatic o/p annotations .txt file> "
+	exit 1
 fi
 
 echo "Processing"
