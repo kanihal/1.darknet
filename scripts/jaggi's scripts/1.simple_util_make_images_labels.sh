@@ -12,7 +12,7 @@ fi
 if [ ! -d "labels" ]; then 
 	mkdir labels
 fi
-find $1 -type f -name '*.jpg' |\
+find $1 -type f -name '*.jpg' -o -name '*.jpeg' -o -name '*.png'  -o -name '*.bmp'|\
 	while read fname; do
 		cp $fname "images/${fname##*/}"
 	done
