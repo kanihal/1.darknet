@@ -40,5 +40,5 @@ void save_detections_counts(char *image_id, int num, int width, int height, floa
                      box *boxes, float **probs, char **names, int classes,int* counts);
 void save_counts(char *image_id, int num, int width, int height, float thresh,
                      box *boxes, float **probs, char **names, int classes,int* counts);
-
+float get_avg_prob(float **probs, int num, float thresh, int classes);
 #endif // PREDICTIONS_H

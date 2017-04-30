@@ -495,7 +495,18 @@ void test_detector(char *datacfg, char *cfgfile, char *weightfile, char *filenam
         save_detections_counts(filename, l.w*l.h*l.n, im.w, im.h, thresh, boxes, probs, names, l.classes,counts);
         save_counts(filename, l.w*l.h*l.n, im.w, im.h, thresh, boxes, probs, names, l.classes,counts);
         printf("Wrote result to: csv File \n");
-
+        float avg_prob=get_avg_prob(probs,l.w*l.h*l.n,thresh,l.classes);
+        if (avg_prob<0.75){
+            printf("avg_prob = %f, saving features...",avg_prob);
+            save_features(net,29,filename,avg_prob);
+            FILE *fp;
+            if ((fp = fopen("uncertain.list", "w")) == NULL) {
+                printf("File open error: %s\n", filename);
+                exit(1);
+            }
+            fprintf(fp,"%s\t%f\n",filename,avg_prob);
+            printf("Done\n");
+        }
         char* pred_img_file;
         pred_img_file = malloc(strlen("predictions_") +strlen(basename(filename)));
         strcpy(pred_img_file, "predictions_");

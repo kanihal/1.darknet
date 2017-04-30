@@ -188,7 +188,30 @@ void save_counts(char *image_id, int num, int width, int height, float thresh,
 
 }
 
+float get_avg_prob(float **probs, int num, float thresh, int classes){
 
-/*credit where credit is Due
-    https://github.com/pjreddie/darknet/pull/27
-*/
+
+    float p=0;
+    int count=0;
+    int i;
+    for (i = 0; i < num; ++i) {
+        int class = max_index(probs[i], classes);
+        float prob = probs[i][class];
+        //        printf("p=%f\n",prob);
+        //        printf("c=%d\n",count);
+        if (prob > thresh) {
+            p+=prob;
+            count++;
+            //printf("--prob=%f\n",prob);
+            //printf("--count=%d\n",count);
+        }
+
+    }
+
+    if (count==0){
+        return 0;
+    }else{
+        //        printf("p/c=%f\n",p/count);
+        return (p/count);
+    }
+}
